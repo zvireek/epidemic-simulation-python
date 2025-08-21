@@ -27,5 +27,5 @@ Projekt powstał jako zadanie końcowe z Programowania 2 (Python) i pokazuje wyk
 
 1. Sklonuj repozytorium:
    ```bash
-   git clone https://github.com/TWOJ-LOGIN/epidemic-simulation-python.git
+   git clone https://github.com/zvireek/epidemic-simulation-python.git
    cd epidemic-simulation-python
