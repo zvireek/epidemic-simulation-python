@@ -1,7 +1,7 @@
 # Epidemic Simulation (Python OOP Project)
 
-Symulacja przebiegu epidemii w populacji z podziałem na grupy wiekowe.  
-Projekt powstał jako zadanie końcowe z Programowania 2 (Python) i pokazuje wykorzystanie **programowania obiektowego**, **Tkinter (GUI)** oraz **matplotlib** do wizualizacji danych.
+A graphical application that simulates the spread of an epidemic in a population, divided into age groups.  
+This project was developed as a final assignment for the **Programming 2 (Python)** course and demonstrates the use of **object-oriented programming**, **Tkinter (GUI)**, and **matplotlib** for real-time data visualization.
 
 ---
 
@@ -10,22 +10,57 @@ Projekt powstał jako zadanie końcowe z Programowania 2 (Python) i pokazuje wyk
 
 ---
 
-## 🚀 Funkcjonalności
-- Symulacja populacji z podziałem na grupy wiekowe (młodzi, dorośli, starsi).  
-- Definiowanie parametrów epidemii:
-  - nazwa choroby,
-  - współczynnik zakażeń,
-  - okres inkubacji,
-  - okres zakaźności.  
-- Możliwość włączenia/wyłączenia **social distancing**.  
-- Dynamiczny wykres przebiegu epidemii (S/I/R).  
-- Resetowanie i ponowne uruchamianie symulacji.  
+## 🚀 Features
+- Simulation of a population divided into adjustable size age groups (young, adults, elderly).  
+- Adjustable epidemic parameters:
+  - disease name,  
+  - transmission rate,  
+  - incubation period,  
+  - infectious period.  
+- Option to enable/disable **social distancing**.  
+- Dynamic real-time chart showing the epidemic course (Susceptible / Infected / Recovered).  
+- Reset and restart functionality.  
 
 ---
 
-## ⚙️ Instalacja i uruchomienie
+## ⚙️ Installation and Usage
 
-1. Sklonuj repozytorium:
+1. Clone the repository:
    ```bash
    git clone https://github.com/zvireek/epidemic-simulation-python.git
    cd epidemic-simulation-python
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the application:
+   ```bash
+   python src/main.py
+
+
+---
+
+## 🛠 Technologies
+- **Python** 3.12
+- **TKinter** (GUI)
+- **matplotlib** (charts)
+- **unittest** (unit testing)
+
+
+--- 
+## 📚 What I Learned
+
+Applying object-oriented programming (classes, interfaces, inheritance).
+
+Developing graphical desktop applications in Python with Tkinter.
+
+Integrating simulation logic with real-time data visualization.
+
+Structuring a project into clean, modular packages.
+
+
+---
+## UML DIAGRAM
+
+
