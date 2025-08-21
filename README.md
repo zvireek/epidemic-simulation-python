@@ -61,6 +61,7 @@ Structuring a project into clean, modular packages.
 
 
 ---
-## UML DIAGRAM
+## 📸 UML DIAGRAM
 
+![Screenshot](assets/uml_diagram.png)
 
